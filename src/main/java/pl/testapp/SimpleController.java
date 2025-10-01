@@ -10,4 +10,3 @@ public class SimpleController {
         return "No i stało się";
     }
 }
-
