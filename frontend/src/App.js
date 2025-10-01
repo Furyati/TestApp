@@ -22,7 +22,7 @@ function App() {
     setResponse('');
 
     try {
-      const result = await fetch('http://localhost:8080/');
+      const result = await fetch('https://testapp-production-96e1.up.railway.app/');
       if (result.ok) {
         const text = await result.text();
         setResponse(text);
